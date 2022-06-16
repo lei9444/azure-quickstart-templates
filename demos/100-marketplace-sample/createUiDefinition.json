@@ -7,7 +7,7 @@
             {
                 "name": "vmName",
                 "type": "Microsoft.Common.TextBox",
-                "label": "[environmentConfig('actionURL')]",
+                "label": "[concat(environmentConfig('actionURL'), resources().name)]",
                 "toolTip": "The name of the Virtual Machine.",
                 "defaultValue": "linux-vm",
                 "constraints": {
