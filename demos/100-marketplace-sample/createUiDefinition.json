@@ -7,7 +7,7 @@
             {
                 "name": "vmName",
                 "type": "Microsoft.Common.TextBox",
-                "label": "[concat(environmentConfig('actionURL'), resources().name)]",
+                "label": "[environmentConfig('armEndpoint')]",
                 "toolTip": "The name of the Virtual Machine.",
                 "defaultValue": "linux-vm",
                 "constraints": {
